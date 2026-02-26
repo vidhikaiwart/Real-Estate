@@ -1,0 +1,47 @@
+# Documentation and debug files
+*.md
+!README.md
+!backend/INTEGRATION_GUIDE.md
+!backend/setup-domain-auth.md
+!backend/setup-twilio-whatsapp.md
+!backend/whatsapp-sandbox-setup.md
+
+# Ignore all root-level debug/guide markdown files
+COMPLETE_SETUP_GUIDE.md
+CREATE_LEAD_DEBUG.md
+EMAIL_DMARC_FIXED.md
+EMAIL_NOT_RECEIVED_DEBUG.md
+FINAL_EMAIL_SOLUTION.md
+FINAL_WORKING_SOLUTION.md
+FIX_EMAIL_NOW.md
+FRONTEND_CAMPAIGN_DEBUG.md
+GMAIL_BLOCKING_SOLUTION.md
+GMAIL_DMARC_SOLUTION.md
+INTEGRATION_COMPLETE.md
+PHONE_NUMBER_FIXED.md
+REGISTER_PAGE_ADDED.md
+SENDGRID_SENDER_VERIFICATION.md
+STAFF_PAGE_DEBUG.md
+WHATSAPP_NOT_RECEIVED.md
+
+# Environment variables
+.env
+.env.local
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
