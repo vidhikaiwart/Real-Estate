@@ -14,7 +14,7 @@ const testEmailCampaign = async () => {
   console.log('');
 
   // Test email address
-  const testEmail = 'vidhikaiwart@gmail.com'; // Change this to your test email
+  const testEmail = 'your-email@example.com'; // Change this to your test email
   
   console.log('2. Sending Test Email...');
   console.log('   To:', testEmail);
@@ -63,7 +63,7 @@ const testEmailCampaign = async () => {
     console.error('');
     console.error('Common Issues:');
     console.error('   1. Invalid API Key - Check SENDGRID_API_KEY in .env');
-    console.error('   2. Unverified sender - Verify vidhikaiwart@gmail.com in SendGrid');
+    console.error('   2. Unverified sender - Verify your email in SendGrid');
     console.error('   3. API Key permissions - Ensure "Mail Send" permission is enabled');
     console.error('   4. Rate limiting - Wait a few minutes and try again');
   }

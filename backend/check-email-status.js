@@ -13,6 +13,6 @@ console.log('   - Inbox');
 console.log('   - Spam/Junk folder');
 console.log('   - All Mail folder\n');
 console.log('4. If sender not verified:');
-console.log('   - You MUST verify vidhikaiwart@gmail.com');
+console.log('   - You MUST verify your email address');
 console.log('   - Check your email for verification link from SendGrid');
 console.log('   - Click the link to verify\n');

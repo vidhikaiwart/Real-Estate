@@ -5,10 +5,10 @@ const testEmail = async () => {
   try {
     console.log('Sending test email...');
     console.log('From:', process.env.SENDGRID_FROM_EMAIL);
-    console.log('To: vidhikaiwart@gmail.com');
+    console.log('To: your-email@example.com');
     
     await sendEmail(
-      'vidhikaiwart@gmail.com',
+      'your-email@example.com',
       'Test Email from Real Estate CRM',
       'This is a test email from your Real Estate CRM application.',
       `
@@ -24,7 +24,7 @@ const testEmail = async () => {
     );
     
     console.log('✅ Email sent successfully!');
-    console.log('Check vidhikaiwart@gmail.com inbox');
+    console.log('Check your email inbox');
   } catch (error) {
     console.error('❌ Failed to send email:', error.message);
     if (error.response) {

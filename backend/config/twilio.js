@@ -8,7 +8,7 @@ const client = twilio(
 
 /**
  * Send a single WhatsApp message
- * @param {string} to - Recipient phone number (with country code, e.g., +919691187862)
+ * @param {string} to - Recipient phone number (with country code, e.g., +1234567890)
  * @param {string} message - Message content
  */
 const sendWhatsAppMessage = async (to, message) => {

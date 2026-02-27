@@ -9,7 +9,7 @@ const testWhatsApp = async () => {
     console.log('\n--- Test 1: Simple Message ---\n');
     
     // Test simple message
-    const testNumber = '+919691187862';
+    const testNumber = '+1234567890'; // Replace with your test number
     
     await sendWhatsAppMessage(
       testNumber,
@@ -28,7 +28,7 @@ const testWhatsApp = async () => {
     );
     
     console.log('✅ Template message sent successfully!');
-    console.log('\nCheck your WhatsApp (+919691187862) for both messages.');
+    console.log('\nCheck your WhatsApp for both messages.');
     
   } catch (error) {
     console.error('\n❌ Failed to send WhatsApp message');
